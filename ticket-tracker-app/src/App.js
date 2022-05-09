@@ -8,7 +8,9 @@ const App = () => {
     <>
       <div>
         <h3>Ticket Tracker</h3>
-
+        <div className="mainArea">
+          <Employee employeesArr={team} />
+        </div>
       </div>
     </>
   );
