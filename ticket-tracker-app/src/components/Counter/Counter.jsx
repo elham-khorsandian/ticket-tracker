@@ -1,11 +1,16 @@
-import React from "react";
-import "./Counter.css";
+import React, { useState } from "react";
+import "./Counter.scss";
 
-const Counter = (props) => {
-  const { employee } = props;
+const Counter = () => {
+  /*  const { employee } = props; */
+  const [count, setCount] = useState(0);
+
   return (
     <div className="firstClass">
-      <p>{employee.count}</p>
+      {/* <p>{employee.count}</p> */}
+      <p>{count}</p>
+      <button>-</button>
+      <button>+</button>
     </div>
   );
 };

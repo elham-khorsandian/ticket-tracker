@@ -1,6 +1,6 @@
 import React from "react";
 import Counter from "../Counter/Counter";
-import "./Employee.css";
+import "./Employee.scss";
 
 const Employee = (props) => {
   const { employeesArr } = props;
@@ -9,7 +9,8 @@ const Employee = (props) => {
     <div className="employeeCard">
       <p>{employee.name}</p>
       <p>{employee.role}</p>
-      <Counter employee={employee} />
+      <Counter />
+      {/* <Counter employee={employee} /> */}
     </div>
   ));
 
