@@ -1,4 +1,4 @@
-const team = [
+let team = [
   {
     id: 1,
     name: "Alima Miller",
@@ -50,4 +50,10 @@ const team = [
     role: "Hard Man",
   },
 ];
+
+team = team.map((employee) => {
+  employee.count = 0;
+  return employee;
+});
+
 export default team;
