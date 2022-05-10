@@ -1,4 +1,20 @@
 @use "../../assets/sass/_variables.scss" as *;
-.firstClass {
-  color: black;
+.counter {
+  background-color: $color-light-purple;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2vh;
+  border-radius: 7%;
+}
+
+button {
+  margin: 0 1vh;
+  border-radius: 20%;
+  padding: 1vh 2vh;
+  border: none;
+  background-color: $color-white;
+  font-size: 1.3em;
 }

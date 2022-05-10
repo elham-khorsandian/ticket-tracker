@@ -6,8 +6,8 @@ import team from "./data/team";
 const App = () => {
   return (
     <>
-      <div>
-        <h3>Ticket Tracker</h3>
+      <div className="homePage">
+        <h2>Ticket Tracker</h2>
         <div className="mainArea">
           <Employee employeesArr={team} />
         </div>

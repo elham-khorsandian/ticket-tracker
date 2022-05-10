@@ -15,7 +15,7 @@ const Employee = (props) => {
 
   return (
     <>
-      <div className="secondClass">{listEmployeesJSX}</div>
+      <div className="employeeCardList">{listEmployeesJSX}</div>
     </>
   );
 };

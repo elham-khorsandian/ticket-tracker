@@ -1,1 +1,13 @@
-
+.homePage {
+  background-color: rgb(255, 218, 246);
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-bottom: 6vh;
+}
