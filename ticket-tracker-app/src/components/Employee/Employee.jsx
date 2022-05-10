@@ -1,5 +1,5 @@
 import React from "react";
-//import "./Employee.scss";
+import "./Employee.scss";
 
 const Employee = (props) => {
   const { employeesArr } = props;
@@ -13,7 +13,7 @@ const Employee = (props) => {
 
   return (
     <>
-      <div className="secondClass">{listEmployeesJSX}</div>;
+      <div className="secondClass">{listEmployeesJSX}</div>
     </>
   );
 };
