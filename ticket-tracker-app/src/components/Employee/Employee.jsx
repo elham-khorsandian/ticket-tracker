@@ -9,8 +9,7 @@ const Employee = (props) => {
     <div className="employeeCard">
       <p>{employee.name}</p>
       <p>{employee.role}</p>
-      <Counter />
-      {/* <Counter employee={employee} /> */}
+      <Counter defaultCount={employee.count} />
     </div>
   ));
 
