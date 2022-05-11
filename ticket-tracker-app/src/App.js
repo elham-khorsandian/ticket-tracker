@@ -11,6 +11,7 @@ const App = () => {
         <div className="mainArea">
           <Employee employeesArr={team} />
         </div>
+        <button>Hello</button>
       </div>
     </>
   );
